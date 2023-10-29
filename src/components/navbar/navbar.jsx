@@ -1,8 +1,8 @@
 import "./navbar.scss"
-const navbar = () => {
+const Navbar = () => {
   return (
     <div className="navbar">navbar</div>
   )
 }
 
-export default navbar
+export default Navbar
