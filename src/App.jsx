@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       <section>
-        <Navbar/>
+         <Navbar/>
       </section>
       <section className="section">Parallax</section>
       <section className="section">Services</section>
