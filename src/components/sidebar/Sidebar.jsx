@@ -1,7 +1,14 @@
+import Links from './links/Links'
+import ToggleButton from './toggleButton/ToggleButton'
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <div className="sidebar">
+      <div className="bg">
+        <Links/>
+      </div>
+      <ToggleButton/>
+    </div>
   )
 }
 
