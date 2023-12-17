@@ -1,3 +1,4 @@
+import './sidebar.scss'
 import Links from './links/Links'
 import ToggleButton from './toggleButton/ToggleButton'
 
