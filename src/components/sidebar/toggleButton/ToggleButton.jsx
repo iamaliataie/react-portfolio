@@ -1,7 +1,7 @@
 
 const ToggleButton = () => {
   return (
-    <div>ToggleButton</div>
+    <button></button>
   )
 }
 
