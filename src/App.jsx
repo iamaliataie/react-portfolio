@@ -7,14 +7,14 @@ const App = () => {
       <section>
          <Navbar/>
       </section>
-      <section className="section">Parallax</section>
-      <section className="section">Services</section>
-      <section className="section">Parallax</section>
-      <section className="section">Portfolio</section>
-      <section className="section">Portfolio1</section>
-      <section className="section">Portfolio2</section>
-      <section className="section">Portfolio3</section>
-      <section className="section">Contact</section>
+      <section>Parallax</section>
+      <section>Services</section>
+      <section>Parallax</section>
+      <section>Portfolio</section>
+      <section>Portfolio1</section>
+      <section>Portfolio2</section>
+      <section>Portfolio3</section>
+      <section>Contact</section>
     </div>
   )
 }
