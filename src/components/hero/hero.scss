@@ -8,6 +8,7 @@
         max-width: 1366px;
         height: 100%;
         margin: auto;
+        width: 50px;
 
         .text-container {
             height: 100;
@@ -20,6 +21,10 @@
                 font-size: 30px;
                 color: rebeccapurple;
                 letter-spacing: 10px;
+            }
+
+            h1 {
+                font-size: 88px;
             }
 
             img {
