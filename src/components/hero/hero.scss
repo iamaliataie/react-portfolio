@@ -53,4 +53,14 @@
         top: 0;
         right: 0;
     }
+
+    .sliding-text-container {
+        position: absolute;
+        font-size: 50vh;
+        bottom: -100px;
+        white-space: nowrap;
+        color: rgba(255, 253, 253, 0.095);
+        width: 100%;
+        font-weight: bold;
+    }
 }
