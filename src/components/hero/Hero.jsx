@@ -13,6 +13,9 @@ const Hero = () => {
           <img src="./scroll.png" alt="" />
         </div>
       </div>
+      <div className="sliding-text-container">
+        Writer Content Creator Influencer
+      </div>
       <div className="image-container">
         <img src="./hero.png" alt="" srcset="" />
       </div>
