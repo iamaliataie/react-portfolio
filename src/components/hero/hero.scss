@@ -30,6 +30,7 @@
             .buttons {
                 display: flex;
                 gap: 10px;
+                z-index: 100;
                 button {
                     padding: 20px;
                     border: 1px solid white;
@@ -37,7 +38,8 @@
                     background-color: transparent;
                     color: white;
                     cursor: pointer;
-                    font-weight: 300px;
+                    font-size: 1.1rem;
+                    // font-weight: 300px;
                 }
             }
 
