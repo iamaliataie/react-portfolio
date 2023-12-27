@@ -24,7 +24,13 @@ const Services = () => {
                   <button>WHAT WE DO?</button>
               </div>
         </motion.div>
-        <motion.div className="list-container"></motion.div>
+          <motion.div className="list-container">
+              <div className="box">
+                  <h1>Branding</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquid dolorum soluta porro amet. Facilis incidunt maxime nam sint quibusdam.</p>
+                  <button>Go</button>
+              </div>
+        </motion.div>
     </motion.div>
   )
 }
