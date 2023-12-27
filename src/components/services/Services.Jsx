@@ -10,7 +10,20 @@ const Services = () => {
                   <br/> and move forward
             </p>
         </motion.div>
-        <motion.div className="title-container"></motion.div>
+          <motion.div className="title-container">
+              <div className="title">
+                  <img src="/people.webp" alt="" />
+                  <h1>
+                      <b>Unique</b> Ideas
+                  </h1>
+              </div>
+              <div className="title">
+                  <h1>
+                      <b>For Your</b> Business.
+                  </h1>
+                  <button>WHAT WE DO?</button>
+              </div>
+        </motion.div>
         <motion.div className="list-container"></motion.div>
     </motion.div>
   )
