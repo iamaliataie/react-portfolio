@@ -1,16 +1,18 @@
 import './services.scss'
+import { motion } from 'framer-motion'
+
 const Services = () => {
   return (
-    <div className='services'>
-        <div className="text-container">
+    <motion.div className='services'>
+        <motion.div className="text-container">
             <p>
                   I foucs on helping your brand grow
                   <br/> and move forward
             </p>
-        </div>
-        <div className="title-container"></div>
-        <div className="list-container"></div>
-    </div>
+        </motion.div>
+        <motion.div className="title-container"></motion.div>
+        <motion.div className="list-container"></motion.div>
+    </motion.div>
   )
 }
 
