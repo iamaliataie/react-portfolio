@@ -18,6 +18,12 @@
             color: gray;
             text-align: right;
         }
+
+        hr {
+            width: 500px;
+            border: none;
+            border-top: .5px solid gray;
+        }
     }
     .title-container {
         flex: 1;

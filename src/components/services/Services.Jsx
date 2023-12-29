@@ -8,7 +8,8 @@ const Services = () => {
             <p>
                   I foucs on helping your brand grow
                   <br /> and move forward
-            </p>
+              </p>
+              <hr />
         </motion.div>
         <motion.div className="title-container">
               <div className="title">
