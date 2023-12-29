@@ -59,8 +59,16 @@
 
         }
     }
+
     .list-container {
         flex: 1;
+        display: flex;
+        max-width: 1366px;
+        margin: auto;
+
+        .box {
+            
+        }
     }
 
 }
