@@ -27,6 +27,10 @@
     }
     .title-container {
         flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
         .title {
             img {
                     width: 300px;
