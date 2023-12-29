@@ -1,7 +1,15 @@
 import './services.scss'
 import { motion } from 'framer-motion'
 
+const variants = {
+    initial: {
+        x: -500,
+        opacity: 0
+    }
+}
+
 const Services = () => {
+
   return (
     <motion.div className='services'>
         <motion.div className="text-container">
