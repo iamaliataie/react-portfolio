@@ -19,15 +19,15 @@ const variants = {
 const Services = () => {
 
   return (
-    <motion.div className='services' variants={variants} initial="initial" animate="animate">
-        <motion.div className="text-container">
+    <motion.div className='services' variants={variants} initial="initial" whileInView="animate">
+        <motion.div className="text-container" variants={variants}>
             <p>
                   I foucs on helping your brand grow
                   <br /> and move forward
               </p>
               <hr />
         </motion.div>
-        <motion.div className="title-container">
+        <motion.div className="title-container" variants={variants}>
               <div className="title">
                   <img src="./people.webp" alt="" />
                   <h1>
@@ -41,7 +41,7 @@ const Services = () => {
                   <button>WHAT WE DO?</button>
               </div>
         </motion.div>
-        <motion.div className="list-container">
+        <motion.div className="list-container" variants={variants}>
               <motion.div className="box" whileHover={{background: 'lightgray', color:'black'}}>
                   <h1>Branding</h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquid dolorum soluta porro amet. Facilis incidunt maxime nam sint quibusdam.</p>
