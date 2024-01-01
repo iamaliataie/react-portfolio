@@ -39,11 +39,13 @@ const Single = ({item}) => {
     return (
         <section ref={ref}>
             <div className="container">
-                <img src={item.img} alt="" />
-                <div className="text-container" style={{y:y}}>
-                    <h2>{item.title}</h2>
-                    <p>{item.desc}</p>
-                    <button>See Demo</button>
+                <div className="wrapper">
+                    <img src={item.img} alt="" />
+                    <div className="text-container" style={{y:y}}>
+                        <h2>{item.title}</h2>
+                        <p>{item.desc}</p>
+                        <button>See Demo</button>
+                    </div>
                 </div>
             </div>
         </section>
