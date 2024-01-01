@@ -43,11 +43,11 @@ const Single = ({item}) => {
                     <div className="image-container">
                         <img src={item.img} alt="" />
                     </div>
-                    <div className="text-container" style={{y:y}}>
+                    <motion.div className="text-container">
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
                         <button>See Demo</button>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>
