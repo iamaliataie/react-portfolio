@@ -33,17 +33,17 @@ const Single = ({item}) => {
 
     const ref = useRef()
 
-    const { scrollYProgress } = useScroll({target: ref, offset: ["end end", "end start"]})
-    const y = useTransform(scrollYProgress, [0, 1], ["0%", "-300$"])
+    const { scrollYProgress } = useScroll({target: ref,})
+    const yTrigger = useTransform(scrollYProgress, [0, 1], [-300, 300])
 
     return (
-        <section ref={ref}>
+        <section >
             <div className="container">
                 <div className="wrapper">
-                    <div className="image-container">
+                    <div className="image-container" ref={ref}>
                         <img src={item.img} alt="" />
                     </div>
-                    <motion.div className="text-container" style={{y:y}}>
+                    <motion.div className="text-container" style={{y:yTrigger}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
                         <button>See Demo</button>
