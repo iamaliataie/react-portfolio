@@ -1,4 +1,5 @@
-import './portfolio.scss'
+import './portfolio.scss';
+import {motion, useScroll} from 'framer-motion';
 
 const works = [
     {
@@ -40,6 +41,7 @@ const Portfolio = () => {
     <div className='portfolio'>
         <div className="progress">
             <h1>Featured Works</h1>
+            <div className="progress-bar"></div>
         </div>
         {works.map(item =>  <Single item={item} key={item.id} />)}
     </div>
