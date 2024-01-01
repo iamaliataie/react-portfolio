@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import './portfolio.scss';
-import {motion, useScroll} from 'framer-motion';
+import {motion, useScroll, useSpring} from 'framer-motion';
 
 const works = [
     {
@@ -43,11 +43,16 @@ const Portfolio = () => {
 
     const { scrollYProgress } = useScroll({target: ref, offset: ["end end", "start start"]})
 
+    const scaleX = useSpring(scrollYProgress, {
+        stiffness: 100,
+        damping: 30,
+    })
+
   return (
     <div className='portfolio' ref={ref}>
         <div className="progress">
             <h1>Featured Works</h1>
-            <div className="progress-bar"></div>
+            <motion.div style={{ scaleX }} className="progress-bar"></motion.div>
         </div>
         {works.map(item =>  <Single item={item} key={item.id} />)}
     </div>
