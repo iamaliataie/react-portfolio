@@ -40,7 +40,9 @@ const Single = ({item}) => {
         <section ref={ref}>
             <div className="container">
                 <div className="wrapper">
-                    <img src={item.img} alt="" />
+                    <div className="image-container">
+                        <img src={item.img} alt="" />
+                    </div>
                     <div className="text-container" style={{y:y}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
