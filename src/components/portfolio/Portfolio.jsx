@@ -30,9 +30,15 @@ const works = [
 ]
 
 const Single = ({item}) => {
+
+    const ref = useRef()
+
     return (
-        <section>
-            {item.title}
+        <section ref={ref}>
+            <div className="container">
+                <img src={item.img} alt="" />
+                
+            </div>
         </section>
     )
 }
