@@ -19,6 +19,12 @@ const itmes = [
         img: 'https://images.unsplash.com/photo-1703994643972-22956416b857?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptate, veniam similique ipsa dicta aut aliquid esse animi porro laboriosam. Beatae cumque nisi, aliquid ducimus impedit sunt temporibus sequi itaque?'
     },
+    {
+        id: 4,
+        title: 'Music app',
+        img: 'https://images.unsplash.com/photo-1703880258785-45bc4492a912?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptate, veniam similique ipsa dicta aut aliquid esse animi porro laboriosam. Beatae cumque nisi, aliquid ducimus impedit sunt temporibus sequi itaque?'
+    },
 ]
 
 const Portfolio = () => {
