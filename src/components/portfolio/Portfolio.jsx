@@ -1,6 +1,6 @@
 import './portfolio.scss'
 
-const itmes = [
+const works = [
     {
         id: 1,
         title: 'React Commerce',
@@ -27,9 +27,19 @@ const itmes = [
     },
 ]
 
+const Single = ({item}) => {
+    return (
+        <section>
+            {item.title}
+        </section>
+    )
+}
+
 const Portfolio = () => {
   return (
-    <div className='portfolio'>Portfolio</div>
+    <div className='portfolio'>
+        {works.map(item =>  <Single item={item} key={item.id} />)}
+    </div>
   )
 }
 
