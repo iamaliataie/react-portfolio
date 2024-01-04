@@ -25,6 +25,7 @@ const App = () => {
       <Portfolio />
       <section id="Contact">Contact</section>
     </div>
+    
   )
 }
 
