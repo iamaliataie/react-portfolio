@@ -19,7 +19,7 @@ const variants = {
 
 const Contact = () => {
   return (
-      <motion.div className='contact' variants={variants}>
+      <motion.div className='contact' variants={variants} initial="initial" whileInView="animate">
           <motion.div className="text-container" variants={variants}>
               <motion.h1 variants={variants}>Let's work together</motion.h1>
               <motion.div className="item" variants={variants}>
@@ -43,7 +43,7 @@ const Contact = () => {
                   <button type="submit">Submit</button>
               </form>
           </div>
-    </div>
+    </motion.div>
   )
 }
 
