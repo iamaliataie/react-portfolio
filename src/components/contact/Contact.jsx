@@ -1,5 +1,12 @@
 import './contact.scss'
 
+const variants = {
+    initial: {
+        y: 500,
+        opacity: 0
+     }
+ }
+
 const Contact = () => {
   return (
       <div className='contact'>
