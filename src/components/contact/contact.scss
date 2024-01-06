@@ -24,8 +24,12 @@
 
     .form-container {
         flex: 1;
-        
-        
+        position: relative;
+
+        .phone-svg {
+            position: absolute;
+            margin: auto;
+        }
 
         form {
             display: flex;
