@@ -19,22 +19,22 @@ const variants = {
 
 const Contact = () => {
   return (
-      <div className='contact'>
-          <div className="text-container">
-              <h1>Let's work together</h1>
-              <div className="item">
+      <motion.div className='contact'>
+          <motion.div className="text-container">
+              <motion.h1>Let's work together</motion.h1>
+              <motion.div className="item">
                   <h2>Mail</h2>
                   <span>hello@react.com</span>
-              </div>
-              <div className="item">
+              </motion.div>
+              <motion.div className="item">
                   <h2>Address</h2>
                   <span>Hello Street, Kabul</span>
-              </div>
-              <div className="item">
+              </motion.div>
+              <motion.div className="item">
                   <h2>Phone</h2>
                   <span>+93 777 101010</span>
-              </div>
-          </div>
+              </motion.div>
+          </motion.div>
           <div className="form-container">
               <form>
                   <input type="text" placeholder='Name' />
