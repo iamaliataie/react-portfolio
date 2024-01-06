@@ -26,11 +26,11 @@ const Contact = () => {
                   <h2>Mail</h2>
                   <span>hello@react.com</span>
               </motion.div>
-              <motion.div className="item">
+              <motion.div className="item" variants={variants}>
                   <h2>Address</h2>
                   <span>Hello Street, Kabul</span>
               </motion.div>
-              <motion.div className="item">
+              <motion.div className="item" variants={variants}>
                   <h2>Phone</h2>
                   <span>+93 777 101010</span>
               </motion.div>
