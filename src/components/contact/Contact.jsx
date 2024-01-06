@@ -13,6 +13,10 @@ const Contact = () => {
                   <h2>Address</h2>
                   <span>Hello Street, Kabul</span>
               </div>
+              <div className="item">
+                  <h2>Phone</h2>
+                  <span>+93 777 101010</span>
+              </div>
           </div>
     </div>
   )
