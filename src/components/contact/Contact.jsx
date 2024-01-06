@@ -19,10 +19,10 @@ const variants = {
 
 const Contact = () => {
   return (
-      <motion.div className='contact'>
-          <motion.div className="text-container">
-              <motion.h1>Let's work together</motion.h1>
-              <motion.div className="item">
+      <motion.div className='contact' variants={variants}>
+          <motion.div className="text-container" variants={variants}>
+              <motion.h1 variants={variants}>Let's work together</motion.h1>
+              <motion.div className="item" variants={variants}>
                   <h2>Mail</h2>
                   <span>hello@react.com</span>
               </motion.div>
