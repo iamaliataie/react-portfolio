@@ -30,5 +30,13 @@
             flex-direction: column;
             gap: 20px;
         }
+
+        input, textarea {
+            padding: 20px;
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            border-radius: 5px;
+        }
     }
 }
