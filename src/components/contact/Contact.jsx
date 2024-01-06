@@ -19,7 +19,9 @@ const Contact = () => {
               </div>
           </div>
           <div className="form-container">
-              
+              <form>
+                  <input type="text" placeholder='Name' />
+              </form>
           </div>
     </div>
   )
