@@ -1,5 +1,6 @@
 .navbar {
     height: 100px;
+    
     .wrapper {
         max-width: 1366px;
         margin: auto;
@@ -7,19 +8,20 @@
         align-items: center;
         justify-content: space-between;
         height: 100px;
+        
         span {
             font-weight: bold;
             font-size: 20px;
         }
+        
         .socials {
             display: flex;
             gap: 20px;
+            
             img {
                 width: 20px;
                 height: 20px;
             }
         }
-
     }
-
 }
