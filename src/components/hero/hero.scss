@@ -3,12 +3,10 @@
     overflow: hidden;
     background: linear-gradient(180deg, #0c0c1d, #111132);
     position: relative;
-    
     .wrapper {
         max-width: 1366px;
         height: 100%;
         margin: auto;
-        
         .text-container {
             height: 100%;
             display: flex;
@@ -16,17 +14,14 @@
             justify-content: center;
             gap: 40px;
             width: 50%;
-            
             h2 {
                 font-size: 30px;
                 color: rebeccapurple;
                 letter-spacing: 10px;
             }
-            
             h1 {
                 font-size: 88px;
             }
-            
             .buttons {
                 display: flex;
                 gap: 10px;
@@ -42,20 +37,17 @@
                     // font-weight: 300px;
                 }
             }
-            
             img {
                 width: 50px;
             }
         }
     }
-    
     .image-container{
         height: 100%;
         position: absolute;
         top: 0;
         right: 0;
     }
-    
     .sliding-text-container {
         position: absolute;
         font-size: 50vh;
