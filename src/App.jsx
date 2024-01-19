@@ -8,6 +8,7 @@ import Services from "./components/services/Services"
 
 const App = () => {
   return (
+
     <div>
       <section id="Homepage">
          <Navbar/>
@@ -27,6 +28,7 @@ const App = () => {
         <Contact />
       </section>
     </div>
+    
   )
 }
 
